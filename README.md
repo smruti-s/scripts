@@ -36,3 +36,8 @@ The terminal will prompt you to enter your password. Enter the following command
 ```
 ./deps_install.sh
 ```
+
+# References
+
+https://github.com/ARK-Electronics/ROS2_PX4_Offboard_Example 
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html 
