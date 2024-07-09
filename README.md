@@ -19,13 +19,10 @@ The terminal will prompt you to enter your password. Enter the following command
 
 The `deps_install` script installs following things:
 
-1. Anaconda
-2. PX4
-3. Micro XRCE DDS
+1. PX4
+2. Micro XRCE DDS
 
-It also creates a conda environment and a ros2 workspace. 
-
-Before running the `deps_install` script, please download the Ananconda installation file from [here](https://www.anaconda.com/download/). After downloading the installation file, move it to the cloned repository folder.
+It also creates a ros2 workspace. 
 
 ```
 chmod a+x deps_install.sh

@@ -1,11 +1,4 @@
 #!/bin/bash
-echo "Installing Conda"
-chmod a+x Anaconda3-2024.06-1-Linux-x86_64.sh 
-./Anaconda3-2024.06-1-Linux-x86_64.sh
-echo "Creating Conda Environment"
-conda create -n "uav" python=3.10.12 ipython
-conda activate uav
-echo "Activated conda environment"
 echo "Cloning PX4 repo"
 cd ~/
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
