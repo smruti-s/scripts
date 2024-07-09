@@ -25,7 +25,7 @@ The `deps_install` script installs following things:
 
 It also creates a conda environment and a ros2 workspace. 
 
-Before running the `deps_install` script, please download the Ananconda installation file from [here](https://www.anaconda.com/download/) 
+Before running the `deps_install` script, please download the Ananconda installation file from [here](https://www.anaconda.com/download/). After downloading the installation file, move it to the cloned repository folder.
 
 ```
 chmod a+x deps_install.sh
