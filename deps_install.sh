@@ -5,9 +5,9 @@ git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 echo "Setting up PX4"
 bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
 echo "Installing Python dependencies"
-pip install jupyterlab==4.10
+pip install jupyterlab==4.1.7
 pip install lark
-pip3 install --user -U empy pyros-genmsg setuptools
+pip3 install --user -U empy==3.3.4 pyros-genmsg setuptools
 pip3 install kconfiglib
 pip install --user jsonschema
 pip install --user jinja2

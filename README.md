@@ -20,7 +20,8 @@ The terminal will prompt you to enter your password. Enter the following command
 The `deps_install` script installs following things:
 
 1. PX4
-2. Micro XRCE DDS
+2. Micro XRCE 
+3. Other dependencies required for running PX4
 
 It also creates a ros2 workspace. 
 
